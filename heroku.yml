@@ -1,0 +1,5 @@
+build:
+  docker:
+      worker: /Launcher/lib/Dockerfile
+run:
+   worker: node . --db 'mongodb+srv://mohalicious:spike254@cluster0.0swg7rs.mongodb.net/?retryWrites=true&w=majority'
